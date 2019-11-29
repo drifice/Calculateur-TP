@@ -30,7 +30,7 @@ namespace CalculatorUnitTest
             int expepted = 1;
 
             CalculatorEngine engine = new CalculatorEngine();
-            int actual = engine.sub(a, b);
+            int actual = engine.Sub(a, b);
             Assert.AreEqual(expepted, actual);
 
         }
@@ -44,7 +44,7 @@ namespace CalculatorUnitTest
             int expepted = 2;
 
             CalculatorEngine engine = new CalculatorEngine();
-            int actual = engine.mul(a, b);
+            int actual = engine.Mul(a, b);
             Assert.AreEqual(expepted, actual);
 
         }
@@ -58,7 +58,7 @@ namespace CalculatorUnitTest
             int expepted = 2;
 
             CalculatorEngine engine = new CalculatorEngine();
-            int actual = engine.div(a, b);
+            int actual = engine.Div(a, b);
             Assert.AreEqual(expepted, actual);
 
         }
@@ -71,7 +71,7 @@ namespace CalculatorUnitTest
             int expepted = Int32.MinValue;
 
             CalculatorEngine engine = new CalculatorEngine();
-            int actual = engine.div(a, b);
+            int actual = engine.Div(a, b);
             Assert.AreEqual(expepted, actual);
 
         }
