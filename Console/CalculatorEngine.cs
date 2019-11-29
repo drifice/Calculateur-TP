@@ -20,17 +20,17 @@ namespace Console
             return val1 + val2;
         }
 
-        public virtual int Sub(int val1, int val2)
+        public virtual int Substraction(int val1, int val2)
         {
             return val1 - val2;
         }
 
-        public virtual int Mul(int val1, int val2)
+        public virtual int Multiplication(int val1, int val2)
         {
             return val1 * val2;
         }
 
-        public virtual int Div(int val1, int val2)
+        public virtual int Division(int val1, int val2)
         {
             int res;
             if (val2 != 0)

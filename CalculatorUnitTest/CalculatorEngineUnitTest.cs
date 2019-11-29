@@ -22,7 +22,7 @@ namespace CalculatorUnitTest
         }
 
         [TestMethod]
-        public void TestSub()
+        public void TestSubstraction()
         {
 
             int a = 2;
@@ -30,13 +30,13 @@ namespace CalculatorUnitTest
             int expepted = 1;
 
             CalculatorEngine engine = new CalculatorEngine();
-            int actual = engine.Sub(a, b);
+            int actual = engine.Substraction(a, b);
             Assert.AreEqual(expepted, actual);
 
         }
 
         [TestMethod]
-        public void TestMul()
+        public void TestMultiplication()
         {
 
             int a = 2;
@@ -44,13 +44,13 @@ namespace CalculatorUnitTest
             int expepted = 2;
 
             CalculatorEngine engine = new CalculatorEngine();
-            int actual = engine.Mul(a, b);
+            int actual = engine.Multiplication(a, b);
             Assert.AreEqual(expepted, actual);
 
         }
 
         [TestMethod]
-        public void TestDiv()
+        public void TestDivision()
         {
 
             int a = 2;
@@ -58,7 +58,7 @@ namespace CalculatorUnitTest
             int expepted = 2;
 
             CalculatorEngine engine = new CalculatorEngine();
-            int actual = engine.Div(a, b);
+            int actual = engine.Division(a, b);
             Assert.AreEqual(expepted, actual);
 
         }
@@ -71,7 +71,7 @@ namespace CalculatorUnitTest
             int expepted = Int32.MinValue;
 
             CalculatorEngine engine = new CalculatorEngine();
-            int actual = engine.Div(a, b);
+            int actual = engine.Division(a, b);
             Assert.AreEqual(expepted, actual);
 
         }
