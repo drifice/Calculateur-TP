@@ -8,7 +8,7 @@ namespace CalculatorUnitTest
     public class CalculatorEngineUnitTest
     {
         [TestMethod]
-        public void TestAdd()
+        public void TestAddition()
         {
 
             int a = 1;
@@ -16,7 +16,7 @@ namespace CalculatorUnitTest
             int expepted = 3;
 
             CalculatorEngine engine = new CalculatorEngine();
-            int actual = engine.add(a, b);
+            int actual = engine.Addition(a, b);
             Assert.AreEqual(expepted, actual);
 
         }
