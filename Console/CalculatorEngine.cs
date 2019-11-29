@@ -19,14 +19,8 @@ namespace Console
         {
             return val1 + val2;
         }
-<<<<<<< HEAD
 
         public virtual int Sub(int val1, int val2)
-=======
-        
-        // dsdsd
-        public int sub(int val1, int val2)
->>>>>>> beb1cafea91fcf79f7429ddbf4acb9f19e610b90
         {
             return val1 - val2;
         }
