@@ -15,7 +15,7 @@ namespace Console
         /// <param name="val1">la 1er valeur</param>
         /// <param name="val2">la 2eme valeur</param>
         /// <returns>le resultat de l'addiction</returns>
-        public virtual int Add(int val1, int val2)
+        public virtual int Addition(int val1, int val2)
         {
             return val1 + val2;
         }
