@@ -76,5 +76,43 @@ namespace CalculatorUnitTest
 
         }
 
+        [TestMethod]
+        public void TestSquareRoot()
+        {
+
+            int a = 2;
+            double expepted =Math.Sqrt(a);
+
+            CalculatorEngine engine = new CalculatorEngine();
+            double actual = engine.SquareRoot(a);
+            Assert.AreEqual(expepted, actual);
+
+        }
+       
+        [TestMethod]
+        public void TestSquare()
+        {
+
+            double a = 2;
+            double expepted = Math.Pow(a, 2);
+
+            CalculatorEngine engine = new CalculatorEngine();
+            double actual = engine.Square(a);
+            Assert.AreEqual(expepted, actual);
+
+        }
+
+        [TestMethod]
+        public void TestPersentage()
+        {
+
+            double a = 2;
+            double expepted = 0.02;
+
+            CalculatorEngine engine = new CalculatorEngine();
+            double actual = engine.Persentage(a);
+            Assert.AreEqual(expepted, actual);
+
+        }
     }
 }
